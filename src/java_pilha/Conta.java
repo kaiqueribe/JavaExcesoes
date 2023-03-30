@@ -2,7 +2,12 @@ package java_pilha;
 
 public class Conta {
 
-	public void Saca() {
+	double saldo;
+	
+	public void deposita(double valor) throws MinhaExcecao {
+	this.saldo += valor;
+	
+		
 	}
 
 }
