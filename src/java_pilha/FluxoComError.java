@@ -25,6 +25,7 @@ public class FluxoComError {
 	private static void metodo2() {
 		System.out.println("Ini do metodo 2");
 		System.out.println("Testando se 2 das maquinas conseguem mandar atualizações de commit pelo git bash");
+		System.out.println("Cadastrei a SSH Key");
 		metodo2();
 		System.out.println("Fim do metodo 2");
 	}
