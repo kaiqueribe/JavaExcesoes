@@ -11,6 +11,8 @@ public class FluxoComError {
 
 			System.out.println("Exception " + msg);
 			ex.printStackTrace();
+		}finally {
+			System.out.println("Fecha");
 		}
 		System.out.println("Fim do main");
 

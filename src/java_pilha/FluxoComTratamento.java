@@ -26,12 +26,12 @@ public class FluxoComTratamento {
 
 	private static void metodo2() throws MinhaExcecao {
 		System.out.println("Ini do metodo2");
-		
-		Conta c= new Conta();
+
+		Conta c = new Conta();
 		throw new MinhaExcecao("Deu Muito Errado2");
-		//NullPointerException ex2 = new NullPointerException();
-		
-		//throw ex2;
-	//	System.out.println("Fim do metodo2");
+		// NullPointerException ex2 = new NullPointerException();
+
+		// throw ex2;
+		// System.out.println("Fim do metodo2");
 	}
 }
